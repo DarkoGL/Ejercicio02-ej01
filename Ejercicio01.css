@@ -49,6 +49,10 @@ html {
     border-radius: 0.5rem;
   }
 
+  button{
+    cursor: pointer;
+  }
+
   .google{
     background-color: #4286f1;
   }
@@ -79,6 +83,7 @@ html {
     letter-spacing: 0.2rem;
     background-color: white;
     margin-bottom: 1rem;
+    cursor: pointer;
   }
 
   .footer{

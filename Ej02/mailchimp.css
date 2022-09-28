@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  .container{
+    max-width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .icon img{
+    width: 150px;
+    height: 150px;
+    margin: 1rem 3rem 0 0;
+  }
+
+  .bold{
+    font-weight: 700;
+  }
+
+  input[type="email"],
+  input[type="text"],
+  input[type="password"]{
+    width: 435px;
+    height: 40px;
+  }
+
+  .requirements{
+    display: flex;
+    justify-content: start;
+  }
+
+  input[type="submit"]{
+    width: 120px;
+    height: 40px;
+    border: 1px solid #ccc;
+    color: #ccc;
+    background-color: white;
+  }
+
+  .submit{
+    display: flex;
+    align-items:flex-end;
+  }
+
+  input[type="checkbox"]{
+    margin: 20px;
+    padding-bottom: 20px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 200px;
+  }
+
+
+
+
+

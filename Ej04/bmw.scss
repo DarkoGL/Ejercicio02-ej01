@@ -3,10 +3,10 @@
   margin: 0;
 }
 
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
-  font-family: Arial, Helvetica, sans-serif;
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .header {
@@ -38,14 +38,15 @@
   color: white;
 }
 
-.menu-right ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  margin: 10px;
+.menu-right ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    
 }
 
-.icon img {
+.icon img{
   display: inline;
   filter: invert(100%);
   font-weight: 700;
@@ -55,10 +56,11 @@
   margin: 10px;
 }
 
-.bmw img {
+.bmw img{
   height: 32px;
   width: 32px;
 }
+
 
 .top-banner {
   height: 350px;
@@ -75,13 +77,13 @@
   margin-left: 15px;
 }
 
-.top-banner p {
-  justify-content: flex-start;
-  margin-left: 20px;
-  font-size: 16px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: white;
+.top-banner p{
+    justify-content: flex-start;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
 }
 
 .top-banner__button {
@@ -97,42 +99,51 @@
   text-decoration: none;
 }
 
-.top-banner__button:hover {
+.top-banner__button:hover{
   background-color: #0653b6;
 }
 
-.main {
+.main{
   padding: 80px 0 40px;
-}
-.main .main__series {
-  color: #ccc;
-  border-bottom: 1px solid #ccc;
-  width: 50px;
-  margin: 20px;
-  text-align: center;
-}
-.main .main__nav ul {
-  display: flex;
-  text-align: center;
-  list-style: none;
-  gap: 15px;
-  border-bottom: 2px solid #ccc;
-  width: 80%;
-  margin-left: 20px;
-}
-.main .main__nav ul li {
-  padding: 5px;
-  color: #ccc;
-  font-size: 18px;
-}
-.main .main__nav ul li:hover {
-  font-size: 24px;
-  color: darkslategrey;
-  font-weight: 700;
+
+  .main__series{
+    color: #ccc;
+    border-bottom: 1px solid #ccc;
+    width: 50px;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .main__nav{
+    ul{
+      display: flex;
+      text-align: center;
+      list-style: none;
+      gap: 15px;
+      border-bottom: 2px solid #ccc;
+      width: 80%;
+      margin-left: 20px;
+
+      li{
+        padding: 5px;
+        color: #ccc;
+        font-size: 18px;
+      }
+
+      li:hover{
+        font-size: 24px;
+        color:darkslategrey;
+        font-weight: 700;
+      }
+    }
+  }
 }
 
-.main__cars {
+.main__cars{
   display: grid;
   gap: 20px;
   grid-template-areas: "a a a a ";
-}/*# sourceMappingURL=bmw.css.map */
+
+  
+}
+

@@ -125,8 +125,9 @@
       li{
         padding: 5px;
         color: #ccc;
-        font-size: 18px;
+        font-size: 16px;
         margin-left: 5px;
+        margin-bottom: 10px;
       }
 
       li:hover,
@@ -178,5 +179,37 @@
     font-weight: 600;
     margin-bottom: 5px;
   }
+}
+
+.news {
+  display: grid;
+  grid-template-areas: "a a a a";
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 30px;
+
+  .news__content{
+    width: 90%;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+
+    .news__content--info{
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+
+    .news__content--footer{
+      font-size: 10px;
+      font-weight: 700;
+    }
+
+  }
+
+}
+
+.news__content img{
+  height: 100px;
+  width: 100%;
+  object-fit: contain;
 }
 
